@@ -85,8 +85,8 @@ while($line = <REF>){
       if($colorcheck==0){print OUT $color[5];}
       if($colorcheck==1){print OUT $color[3];}
       if($colorcheck==2){print OUT $color[1];}
-      if($colorcheck==3){print OUT $color[2];}
-      if($colorcheck==4){print OUT $color[4];}
+      if($colorcheck==3){print OUT $color[4];}
+      if($colorcheck==4){print OUT $color[2];}
       $colorcheck=-1;
 
     }else{
