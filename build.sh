@@ -15,3 +15,4 @@ perl bs2tsr.pl
 cp toastr/toastr.js out/
 cp docs/assets/js/bootstrap.min.js out/
 cp Font-Awesome/css/font-awesome.min.css out/
+cp less/mycolor.less out/

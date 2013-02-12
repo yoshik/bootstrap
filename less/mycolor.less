@@ -1,23 +1,24 @@
 //Yoshiki Fujiwara
 
 @myBaseColor           : #f8f8f8;
-@myTextColor           : #101010;
-@myNavbarColor         : #224686;
-@myAccentColor         : #46a546;
+@myTextColor           : #303030;
+@myNavbarColor         : #4FBAE8;
+@myAccentColor         : #4BB037;
 
-@myLinkColor           : @myAccentColor;
+@myLinkColor           : darken(@myNavbarColor,15%);
 
 
 @myNormalColor         : @myBaseColor;
 @myPrimaryColor        : @myAccentColor;
 @myInverseColor        : @myNavbarColor;
 @myInfoColor           : #049cdb;
-@mySuccessColor        : #46a546;
-@myWarningColor        : #ffc40d;
+@mySuccessColor        : @myPrimaryColor;
+//@mySuccessColor        : #46a546;
+@myWarningColor        : #efb40d;
 @myDangerColor         : #9d261d;
 
 
-@myBtnLight :20%;
+@myBtnLight :10%;
 @myNormalBtnColor      : lighten(@myNormalColor,@myBtnLight);
 @myPrimaryBtnColor     : lighten(@myPrimaryColor,@myBtnLight);
 @myInverseBtnColor     : lighten(@myInverseColor,@myBtnLight);
@@ -27,7 +28,7 @@
 @myDangerBtnColor      : lighten(@myDangerColor,@myBtnLight);
 
 
-@myLabelLight :10%;
+@myLabelLight :20%;
 @myNormalLabelColor    : lighten(@myNormalColor,@myLabelLight);
 @myInverseLabelColor   : lighten(@myInverseColor,@myLabelLight);
 @myInfoLabelColor      : lighten(@myInfoColor,@myLabelLight);
